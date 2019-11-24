@@ -21,15 +21,15 @@ UNLUCKY = R + '[' + W + '!' + R + ']'
 banner = """
 {}         _xxxx_{}        _________________
 {}        xxxxxxxx{}      |                 |
-{}       @p~qp~~qMb{}   ._| {}Bash phencdec {}|
-{}       M{}({}@{})({}@{}) {}M|{}  /  |_________________|
+{}       @p~qp~~qMb{}   ._| {}xxPH ENC DECxx {}|
+{}       M{}({}O{})({}O{}) {}M|{}  /  |_________________|
 {}       @,{}----.{}JM|{}_/
 {}      JS^{}\__/{}  qKL
      xXX        xXXx
     xXX          xXXx
    xXX            XXXx
    XXX            XXXX    {}Coded by {}: {}pensiunanhacker
-{}   FqM            XXXX    {}Teleg       {}: {}pensiunanhacker
+{}   FqM            XXXX    {}Teleg     {}: {}pensiunanhacker
 {} __|'\ .        |\{}pH xXX
 {} |    `.       | `' \{}Xx
 {}_)      \.{}___.{},|     .'
@@ -73,7 +73,7 @@ def enkrip():
    try:
        script = raw_input(ask + W + "Script " + G + "> " + W)
        output = raw_input(ask + W + "Output " + G + "> " + W)
-       os.system("bash-FVCK " + script + " -o " + output )
+       os.system("❌try again! " + script + " -o " + output )
        print (NICE + "Done..")
    except KeyboardInterrupt:
        print (UNLUCKY + " 💢")
