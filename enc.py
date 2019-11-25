@@ -29,11 +29,11 @@ banner = """
     xXX          xXXx
    xXX            XXXx
    XXX            XXXX    {}Coded by {}: {}pensiunanhacker
-{}   FqM            XXXX    {}Teleg       {}: {}pensiunanhacker
+{}  XXX            XXXX    {}Teleg       {}: {}pensiunanhacker
 {} __|'\ .        |\{}pH xXX
 {} |    `.       | `' \{}Xx
 {}_)      \.{}___.{},|     .'
-\____   ){}MMMMMP{}|   .'
+\____   ){}RRRRR{}|   .'
      `-'       `--'
 """.format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
 
