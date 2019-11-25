@@ -5,14 +5,14 @@ import os
 import sys
 import fileinput
 
-N = '\033[0m'
-D = '\033[90m'
-W = '\033[1;37m'
-B = '\033[1;34m'
-R = '\033[1;31m'
-G = '\033[1;32m'
-Y = '\033[1;33m'
-C = '\033[1;36m'
+N = '\034[0m'
+D = '\034[90m'
+W = '\034[1;37m'
+B = '\034[1;34m'
+R = '\034[1;31m'
+G = '\034[1;32m'
+Y = '\034[1;33m'
+C = '\034[1;36m'
 
 ask = G + '[' + W + '?' + G + '] '
 NICE = G + '[' + W + '√' + G + '] '
@@ -21,19 +21,19 @@ UNLUCKY = R + '[' + W + '!' + R + ']'
 banner = """
 {}         _xxxx_{}        _________________
 {}        xxxxxxxx{}      |                 |
-{}       @p~qp~~qMb{}   ._| {}xxPH ENC DECxx {}|
+{}       @xxxxxxxxx{}   ._| {}xxPH ENC DECxx {}|
 {}       M{}({}O{})({}O{}) {}M|{}  /  |_________________|
-{}       @,{}----.{}JM|{}_/
-{}      JS^{}\__/{}  qKL
+{}       @,{}----.{}XX|{}_/
+{}      XXX{}\__/{}  xxx
      xXX        xXXx
     xXX          xXXx
    xXX            XXXx
    XXX            XXXX    {}Coded by {}: {}pensiunanhacker
-{}   FqM            XXXX    {}Teleg     {}: {}pensiunanhacker
+{}   XXx            XXXX    {}Teleg     {}: {}pensiunanhacker
 {} __|'\ .        |\{}pH xXX
 {} |    `.       | `' \{}Xx
 {}_)      \.{}___.{},|     .'
-\____   ){}MMMMMP{}|   .'
+\____   ){}radian{}|   .'
      `-'       `--'
 """.format(D,W,D,W,D,W,Y,W,D,W,D,W,D,W,D,W,D,Y,D,W,D,Y,D,G,W,G,D,G,W,G,Y,D,Y,D,Y,D,Y,D,Y)
 
